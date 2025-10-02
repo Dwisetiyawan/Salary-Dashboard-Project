@@ -12,7 +12,7 @@ This finding, drives me to do a further research about data jobs to gain more in
 
 ## Key Insights ##
 
-![Salary Dashboard](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Salary%20Dashboard%20Project.mp4)
+![Salary Dashboard](hhttps://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Salary%20Dashboard%20Project.gif)
 
 With dashboard above, I can visually show some key informations extracted from data job postings 2023, such as median salary for each data jobs differentiate on type of the jobs and country where the jobs are opened, also top platform where the jobs were posted and count of the jobs posted.
 
