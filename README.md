@@ -9,22 +9,29 @@ In January 2025, the World Economic Forum released the Future of Jobs Report 202
 This finding, drives me to do a further research about data jobs, especially data analyst which still related to my experience, to gain more information related to data jobs salary and count of job posted, based on country where the jobs were opened, type of the job, and platforms where it was posted. I created a dashboard to show how is the trend in data jobs and gain insights for my consideration in my future career. This research used real data job information in 2023. 
 
 ## Summary ##
+![Salary Dashboard](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Salary%20Dashboard%20Project.gif)
+*Salary Dashboard*
 
+With dashboard above, I can visually show some key informations extracted from data job postings 2023, such as median salary for each data jobs differentiate on type of the jobs and country where the jobs are opened, also top platform where the jobs were posted and count of the jobs posted. For the first insight, median salary of data analyst jobs ranging from USD 44,000 to USD 400,000. The lowest median salary is in Algeria with USD 44,100, but with only 2 jobs count, full-time job only, and the top job platform is Ai-Jobs.net. The highest median salary is in Belarus with USD 400,000, but with only 1 job count, full-time job only, and the top job platform is GeekLink. In Indonesia, median salary for full-time data analyst is USD 76,043 , with 14 jobs count, and the top job platform Ai-Jobs.net. This number is quite high compared to average minimum salary in Indonesia that only USD 2,400 (annualy), with the lowest is USD 1,570 and the highest is USD 3,906. In the United States, as the leading country in tech industry, the median salary for full-time data analyst is USD 90,000, with 6,480 jobs count, and the top job platform is Indeed. 
 
 ## Key Insights ##
 
-![Salary Dashboard](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Salary%20Dashboard%20Project.gif)
-
-With dashboard above, I can visually show some key informations extracted from data job postings 2023, such as median salary for each data jobs differentiate on type of the jobs and country where the jobs are opened, also top platform where the jobs were posted and count of the jobs posted. For the first insight, median salary of data analyst jobs ranging from USD 44,000 to USD 400,000. The lowest median salary is in Algeria with USD 44,100, but with only 2 jobs count, full-time job only, and the top job platform is Ai-Jobs.net. The highest median salary is in Belarus with USD 400,000, but with only 1 job count, full-time job only, and the top job platform is GeekLink. In Indonesia, median salary for full-time data analyst is USD 76,043 , with 14 jobs count, and the top job platform Ai-Jobs.net. This number is quite high compared to average minimum salary in Indonesia that only USD 2,400 (annualy), with the lowest is USD 1,570 and the highest is USD 3,906. In the United States, as the leading country in tech industry, the median salary for full-time data analyst is USD 90,000, with 6,480 jobs count, and the top job platform is Indeed. 
+- Algeria has the lowest full-time data analyst median salary with USD 44,100 and with only 2 jobs count 
 
 ![Algeria Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Algeria.jpg)
 *Data Analyst Median Salary in Algeria*
 
+- Belarus has the highest full-time data analyst median salary with USD 400,000 but with only 1 job count
+
 ![Belarus Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Belarus.jpg)
 *Data Analyst Median Salary in Belarus*
 
+- Median salary for full-time data analyst in Indonesia is USD 76,043 with 14 jobs count, 31 times higher than its average minimum salary (USD 2400 annualy)
+
 ![Indonesia Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/Indonesia.jpg)
 *Data Analyst Median Salary in Indonesia*
+
+- Median salary for full-time data analyst in the US is USD 90,000 with 6,480 jobs count and multiple choices of job type (full-time, part-time, contractor, internship, temp work)
 
 ![United States Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/United%20States.jpg)
 
