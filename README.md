@@ -36,3 +36,37 @@ With dashboard above, I can visually show some key informations extracted from d
 ![United States Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/United%20States.jpg)
                                                 *Data Analyst Median Salary in United States*
 
+## Recommndations ##
+
+Based on the findings from the data jobs in 2023, supported by future of jobs report 2025 from World Ecnomic Forum, data analyst is one of the career path choice that offer quite high salary. The median salary of full-time data analyst In Indonesia (as I live in Indonesia) is 31 times higher than average minimum salary of Indonesia. Thus, the next step I need to take is analyze what skills do I need to be a data analyst in Indonesia and how it correlate with the salary. The analysis would be shared on my next project Salary and Skills Analysis Project. 
+
+## Caveats ## 
+
+- This analysis used 32K job postings data in 2023 that I got from free Excel course on **Luke Barrouse** youtube channel
+- The raw data contain information about job title, job location, job schedule type, average yearly & hourly salary, job country,        company, job posted date, job posted platform, and skills related. 
+- The raw data had already cleaned up, so I did not do data cleaning
+
+## Skills Used ## 
+- Charts (Bar & Map chart) for visual comparison of median salary classified by its job title, job schedule type and job country globally.
+- Formulas & Functions :
+    
+    1. Utilize median function with nested if to calculate median salary based on job title, country, and job schedule type
+        ```
+        =MEDIAN(IF(
+        (jobs[job_title_short]=A2)*
+        (jobs[job_country]=country)*
+        (ISNUMBER(SEARCH(type,jobs[job_schedule_type])))*
+        (jobs[salary_year_avg]<>0),
+        jobs[salary_year_avg]))
+        ```
+
+    2. Utilize count function with nested if to count job posted based on job title 
+        ``` 
+        =COUNT(
+        IF(
+        (jobs[job_country]=country)*
+        (jobs[job_title_short]=A8)*
+        (ISNUMBER(SEARCH(type;jobs[job_schedule_type])));
+        jobs[salary_year_avg]))
+        ```
+- Data Validation to make filtered list, filtering the result showed based on job title, country, and job schedule type chosen 
