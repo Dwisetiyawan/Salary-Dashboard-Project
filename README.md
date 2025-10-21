@@ -36,7 +36,7 @@ With dashboard above, I can visually show some key informations extracted from d
 ![United States Median Salary](https://github.com/Dwisetiyawan/Salary-Dashboard-Project/blob/main/Documentation/United%20States.jpg)
                                                 *Data Analyst Median Salary in United States*
 
-## Recommndations ##
+## Recommendations ##
 
 Based on the findings from the data jobs in 2023, supported by future of jobs report 2025 from World Ecnomic Forum, data analyst is one of the career path choice that offer quite high salary. The median salary of full-time data analyst In Indonesia (as I live in Indonesia) is 31 times higher than average minimum salary of Indonesia. Thus, the next step I need to take is analyze what skills do I need to be a data analyst in Indonesia and how it correlate with the salary. The analysis would be shared on my next project Salary and Skills Analysis Project. 
 
